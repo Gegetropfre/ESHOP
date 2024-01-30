@@ -91,4 +91,28 @@ nav {
     column-gap: 5rem;
 
 
+/* produit */
 }
+
+.product{
+    padding-top: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.product img {
+    height: 15rem;
+    width: 15rem;
+
+}
+.product button {
+    width: 20rem;
+    height: 2rem;
+    text-align: center;
+    border-radius: 30px;
+}
+/* .product h1 {
+    margin-top : 5rem;
+} */
