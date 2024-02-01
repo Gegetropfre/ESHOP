@@ -155,7 +155,19 @@ form a {
 }
 
 
-input[type="submit"]{
-
+input[type="submit"] {
+    width: 15.5rem;
+    height: 1.5rem;
 }
 
+.signup-form, .login-form {
+    margin-top: 4rem;
+}
+
+/* PROFILE */
+
+#profile-avatar{
+    border-radius: 100% !important;
+    width: 10rem !important;
+    height: 10rem !important;
+}
