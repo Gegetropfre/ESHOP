@@ -16,7 +16,7 @@
                 <a href="#"><img src="<?= $product['image'] ?>" alt=""></a>
                 <h2><?= $product['title'] ?></h2>
                 <h3><?= substr($product['description'], 0, 50) ?> ...</h3>
-                <h2><?= $product['price'] ?> €</h2>
+                <h2><span id = "prix"><?= $product['price'] ?> €</span></h2>
                 <button><a>Ajouter au panier</a></button>
             </div>
         <?php endif ?>
