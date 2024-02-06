@@ -98,9 +98,13 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 5rem;
 
-
-/* produit */
 }
+
+li button{
+    margin-left: 100px;
+}
+/* produit */
+
 
 .product{
     padding-top: 5rem;
@@ -133,6 +137,10 @@ nav {
     margin-top : 5rem;
 } */
 
+button {
+    border-radius: 10px;
+    background-color: #73A0D8;
+}
 
 /* signup */
 form {
@@ -170,4 +178,33 @@ input[type="submit"] {
     border-radius: 100% !important;
     width: 10rem !important;
     height: 10rem !important;
+}
+
+
+/* CONTACT */
+
+.form-contact{
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    border: solid black 1px;
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50vw;
+    height: 50vh;
+}
+.form-contact input{
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+
+}
+
+#form-message{
+    width: 50%;
+    height:7rem;
+}
+input::placeholder{
+    margin-left: 20px;
 }

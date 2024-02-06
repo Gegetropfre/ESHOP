@@ -17,7 +17,7 @@
                 <h2><?= $product['title'] ?></h2>
                 <h3><?= substr($product['description'], 0, 50) ?> ...</h3>
                 <h2><span id = "prix"><?= $product['price'] ?> €</span></h2>
-                <button><a>Ajouter au panier</a></button>
+                <button><a href="./cart.view.php">Ajouter au panier</a></button>
             </div>
         <?php endif ?>
     <?php endforeach ?>

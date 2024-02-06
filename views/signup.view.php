@@ -70,6 +70,8 @@ if ($_SERVER['REQUEST_METHOD'] === "POST") {
         <input type="password" name="confirm" placeholder="Confirmer votre mot de passe ...">
         <input type="submit" name="submit" value="signup">
     </form>
+    <a href="./login.view.php"> Login</a>
+
 
     <?php if (isset($error)) : ?>
         <p class="error"><?= $error ?></p>
